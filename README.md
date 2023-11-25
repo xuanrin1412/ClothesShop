@@ -25,7 +25,7 @@
 <img width="958" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/e5deffd1-8b59-4d25-8a39-042f0ae2ee35">
 
 <h2>Login page </h2>
-<img width="947" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/b8d16133-e249-46a0-9f44-9ddc47b3567f">
+<img width="957" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/31624bea-9cdc-47bb-82f4-52d51d79315c">
 
 <h2>Navbar when user login (display products in cart) </h2>
 <img width="948" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/9fb8da6d-c817-4385-8fe1-178c55633ff8">
