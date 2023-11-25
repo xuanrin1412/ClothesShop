@@ -9,28 +9,30 @@
 </p>
 
 <h2>Home page when user not log in </h2>  
-<img width="950" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/7968de6b-676c-453d-b628-b37bbbdfa177">
-<img width="944" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/0d449aad-e992-40d5-a6cf-63e0e478ec4a">
-<img width="944" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/315fd7ee-3d3e-42a8-858e-3e8c5d7e87cd">
-<img width="948" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/2753e8f9-25f8-45a4-bbd5-1cd6beb07679">
+<img width="947" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/3ac1b571-0b9b-4312-8e53-f22243331c8e">
+<img width="947" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/92f8edf4-22a6-466d-b012-8bbcd084f453">
+<img width="947" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/b5041a75-48e5-418d-bf23-9698a190f11c">
+<img width="947" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/6582728d-5ac6-48db-93d7-510f30eedc3e">
+
 <h3>Show favorite products</h3>
-<img width="947" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/d706a4a0-8495-46d2-9744-96501cacb7bf">
-<img width="950" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/5e8d51c1-b14a-4a7f-8bde-897194ab2242">
+<img width="947" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/fcab81fc-96c3-4815-bd9b-8f2efaeee8d7">
+<img width="950" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/48a4f674-184a-4cc7-9308-04afc12d6d74">
 
 <h2>Product Page</h2>
-<img width="942" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/da165657-4f12-440f-8884-7d21cb4e10fe">
+<img width="945" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/7d711506-6538-4d31-a062-4bd2897ba624">
 
 <h2>Register page</h2>
-<img width="953" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/7d56d8b3-15c2-4b7f-a4d6-cf9ae7a08a54">
+<img width="958" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/e5deffd1-8b59-4d25-8a39-042f0ae2ee35">
 
 <h2>Login page </h2>
 <img width="958" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/686c79fe-60a7-408b-b333-805da3834267">
 
 <h2>Navbar when user login (display products in cart) </h2>
-<img width="946" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/485bb35d-a9c2-48ce-b127-32f86d222aea">
+<img width="948" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/9fb8da6d-c817-4385-8fe1-178c55633ff8">
 
 <h2>Cart page</h2>
-<img width="950" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/26987a62-dcab-4845-8037-4d7556fbeb7f">
+<img width="947" alt="image" src="https://github.com/xuanrin1412/ClothesShop/assets/114205729/1756d094-24c8-4f57-a8a3-05ab7cae980f">
+
 
 
 
