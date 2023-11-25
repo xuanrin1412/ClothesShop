@@ -1,0 +1,49 @@
+@import '../../global.scss';
+.register {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(233, 145, 255, 0.5)
+        ),
+        url('https://a-static.besthdwallpaper.com/kendall-jenner-marilyn-monroe-photoshoot-monochrome-bg-wallpaper-1280x768-79662_13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrapper {
+        padding: 30px;
+        width: 40%;
+        background-color: white;
+
+        .title {
+            font-size: 24px;
+            font-weight: 300;
+        }
+        .inputContainer {
+            display: flex;
+            flex-wrap: wrap;
+
+            input {
+                flex: 1;
+                min-width: 45%;
+                margin: 20px 10px 0 0;
+                padding: 10px;
+            }
+            .argreement {
+                font-size: 12px;
+                margin: 20px 0px;
+            }
+            button {
+                width: 40%;
+                border: none;
+                padding: 15px 20px;
+                background-color: teal;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}

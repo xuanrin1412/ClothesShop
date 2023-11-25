@@ -1,0 +1,40 @@
+@import "../../../global.scss";
+.sliderItem2 {
+    width: $widthslider;
+    height: $heightslider;
+    .secondSlide {
+        width: $widthslider;
+        height: $heightslider;
+        object-fit: cover;
+        position: relative;
+    }
+    .notifyShipping {
+        position: absolute;
+        bottom: 170px;
+        left: 50%;
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        .textShipping {
+            padding-bottom: 30px;
+            min-width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .textSHeader {
+                font-size: 35px;
+                font-weight: 700;
+                color: white;
+                padding-bottom: 5px;
+            }
+            .text3Time {
+                font-size: 20px;
+                color: white;
+                font-weight: 500;
+            }
+        }
+    }
+}

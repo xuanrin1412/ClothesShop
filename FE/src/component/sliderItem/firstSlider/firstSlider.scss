@@ -1,0 +1,73 @@
+@import "../../../global.scss";
+.sliderItem1 {
+    width: $widthslider;
+    height: $heightslider;
+    .firstSlide {
+        position: relative;
+        width: $widthslider;
+        height: $heightslider;
+        object-fit: cover;
+    }
+    .notifySell {
+        position: absolute;
+        display: flex;
+        top: 40px;
+        margin: 0 30px;
+        left: 50%;
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        .percentSell {
+            position: relative;
+            z-index: 6;
+            // padding-right: 5px;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .bg-percen {
+            z-index: 5;
+            position: absolute;
+            top: -25px;
+            left: -35px;
+            background-color: $maincolor;
+            // opacity: 0.5;
+            height: 90px;
+            width: 90px;
+            clip-path: polygon(
+                10% 28%,
+                75% 0%,
+                100% 50%,
+                83% 100%,
+                34% 97%,
+                0 63%
+            );
+        }
+        .textSell {
+            position: relative;
+            width: 250px;
+            z-index: 3;
+            color: white;
+            font-size: 16.5px;
+            font-weight: 500;
+        }
+        .bg-text {
+            z-index: 2;
+            position: absolute;
+            top: -42px;
+            left: 40px;
+            height: 150px;
+            width: 230px;
+
+            background-color: $bluecolor;
+            clip-path: polygon(
+                100% 21%,
+                100% 64%,
+                88% 64%,
+                72% 76%,
+                74% 64%,
+                0 63%,
+                0 21%
+            );
+        }
+    }
+}

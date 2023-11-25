@@ -1,0 +1,116 @@
+@import "../../global.scss";
+.footer {
+    width: 100%;
+
+    .wrapper {
+        width: 100%;
+        padding: 100px 70px 0 70px;
+        display: flex;
+        flex-direction: column;
+        .hr {
+            height: 1px;
+            color: $bluecolor;
+        }
+        .top {
+            display: flex;
+            justify-content: space-between;
+            // align-items: flex-start;
+            .section {
+                flex: 1;
+                padding: 0 50px;
+                display: flex;
+                flex-direction: column;
+                .headerSection {
+                    color: $bluecolor;
+                    font-weight: 500;
+                    font-size: 20px;
+                    padding-bottom: 10px;
+                }
+                .headerSectionNone {
+                    padding-bottom: 10px;
+                }
+                .info {
+                    color: black;
+                    text-decoration: none;
+                    padding: 2px;
+                    font-size: 13px;
+                }
+                .enjoysales {
+                    min-width: 180px;
+                    color: $bluecolor;
+                    font-weight: 500;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+
+                .connectemail {
+                    padding-bottom: 10px;
+                }
+                .emailForm {
+                    display: flex;
+                    background-color: yellow;
+                    align-self: flex-start;
+                    border-radius: 3px;
+                    border: 2px solid $maincolor;
+                    .inputEmail {
+                        flex: 1;
+                        height: 40px;
+                        max-width: 300px;
+                        border: none;
+                        padding: 10px;
+                        outline: none;
+                        background-color: rgb(255, 216, 216);
+                    }
+                    .submit {
+                        color: white;
+                        padding: 0 10px;
+                        border: none;
+                        background-color: $maincolor;
+                    }
+                    .submit:hover {
+                        background-color: rgb(155, 0, 0);
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+            .payment {
+                border: 1px solid $bluecolor;
+                padding: 7px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .infopayment {
+                    font-size: 15px;
+                    color: $bluecolor;
+                    font-weight: 500;
+                }
+                .pays {
+                    display: flex;
+                    .containPays {
+                        width: 50px;
+                        padding: 0 5px;
+                        img {
+                            height: 100%;
+                            width: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+
+            .infoWebClone {
+                color: gray;
+                padding: 50px 0;
+                a {
+                    color: gray;
+                }
+            }
+        }
+    }
+}

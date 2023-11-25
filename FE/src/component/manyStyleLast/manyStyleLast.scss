@@ -1,0 +1,25 @@
+@import "../../global.scss";
+.manyStyleLast {
+    padding: 0 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    .headerLast {
+        font-size: 40px;
+        font-weight: 500;
+        color: $bluecolor;
+    }
+    .paraLast {
+        padding: 25px 0;
+        max-width: 380px;
+    }
+    .btnLast {
+        padding: 12px;
+        background-color: $maincolor;
+        color: white;
+        align-self: flex-start;
+        border-radius: 10px;
+    }
+    .btnLast:hover {
+        background-color: $bluecolor;
+    }
+}

@@ -1,0 +1,60 @@
+@import '../../global.scss';
+.wishContainer {
+    margin-top: 70px;
+    .WishWrapper {
+        width: 100%;
+        padding: 20px;
+
+        .title {
+            text-align: center;
+        }
+        .top {
+            margin-bottom: 10px;
+            display: flex;
+            .continuteShop {
+                padding: 10px;
+                font-weight: 600;
+                cursor: pointer;
+                background-color: transparent;
+            }
+            .continuteShop:hover {
+                color: white;
+                background-color: black;
+            }
+        }
+    }
+
+    .wishList {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .productswishList {
+            // height: 250px;
+            height: 100%;
+            margin: 5px;
+            border: 1px solid black;
+            .imgContainer {
+                height: 220px;
+                width: 220px;
+                .imgP {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .pInfo {
+                padding: 15px;
+                .namep {
+                }
+                .priceProduct {
+                    padding: 10px 0;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: $bluecolor;
+                }
+            }
+        }
+    }
+}

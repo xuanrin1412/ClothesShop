@@ -1,0 +1,88 @@
+@import "../../global.scss";
+.slider {
+    height: $heightslider;
+    width: $widthslider;
+    position: relative;
+
+    // display: flex;
+    // justify-content: space-between;
+    // object-fit: contain;
+
+    .containbtn {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        color: black;
+        .prevBtn,
+        .nextBtn {
+            z-index: 20;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: rgba(216, 214, 215, 0.273);
+            .iconArrow {
+                background-color: none;
+            }
+        }
+    }
+    // :hover .prevBtn,
+    // :hover .nextBtn {
+    // }
+
+    :hover .prevBtn:hover,
+    :hover .nextBtn:hover {
+        color: white !important;
+        background-color: rgba(5, 5, 5, 0.6);
+        transition: all 0.2s ease-in;
+    }
+
+    .btnShopSlide {
+        position: absolute;
+        bottom: 100px;
+        padding: 15px;
+        font-size: 16px;
+        align-self: flex-start;
+        left: 50%;
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0.898);
+        border: none;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btnShopSlide:hover {
+        background-color: $maincolor;
+        border: 1px solid white;
+        color: white;
+    }
+
+    .containDot {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        display: flex;
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            margin: 0 15px;
+            background-color: rgba(255, 255, 255, 0.514);
+        }
+        .dot.active {
+            background-color: rgb(54, 54, 54);
+            box-shadow: 0px 1px 1px white;
+        }
+    }
+}

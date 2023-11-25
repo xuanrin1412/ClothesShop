@@ -1,0 +1,56 @@
+@import "../../../global.scss";
+.sliderItem3 {
+    width: $widthslider;
+    height: $heightslider;
+    .thirdSlide {
+        position: relative;
+        width: $widthslider;
+        height: $heightslider;
+    }
+    .notifyDiscount {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        min-width: 350px;
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+
+        .textDiscount {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .discountHeader {
+                font-size: 35px;
+                font-weight: 700;
+                color: $bluecolor;
+                z-index: 10;
+            }
+            .paragrapD {
+                text-align: center;
+                color: white;
+                font-size: 17px;
+                position: relative;
+                z-index: 9;
+            }
+            .bg-paragrapD {
+                position: absolute;
+                top: -25px;
+                height: 220px;
+                width: 350px;
+                background-color: $maincolor;
+                z-index: 8;
+
+                clip-path: polygon(
+                    100% 20%,
+                    100% 60%,
+                    81% 61%,
+                    70% 67%,
+                    71% 60%,
+                    0% 60%,
+                    0 21%
+                );
+            }
+        }
+    }
+}

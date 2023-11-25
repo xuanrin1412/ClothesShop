@@ -1,0 +1,89 @@
+@import "../../global.scss";
+.intro {
+    margin-top: 70px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+    .wrapper {
+        width: 100vw;
+        height: 100%;
+
+        .contain2pic {
+            width: 100vw;
+            display: flex;
+            position: relative;
+            .left {
+                flex: 1;
+                height: 100%;
+                width: 100vw;
+                margin-right: 5px;
+
+                .imgleft {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .right {
+                flex: 1;
+                height: 100%;
+                width: 100vw;
+
+                .imgright {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+        // BANNER
+        .banner-container {
+            height: 100%;
+            position: absolute;
+            top: 0;
+            margin-top: 500px;
+            z-index: 4;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .banner {
+                width: 75%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                padding: 50px 30px;
+                .btnshop {
+                    padding: 15px;
+                    font-size: 20px;
+                    background-color: $maincolor;
+                    color: white;
+                    border-radius: 10px;
+                }
+
+                .textBContainer {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 0 20px;
+                    .textHeader {
+                        font-size: 35px;
+                        margin-bottom: 10px;
+                        color: $bluecolor;
+                        font-weight: 700;
+                    }
+
+                    .textSecond {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .icon-banner {
+                position: absolute;
+                margin-bottom: 180px;
+            }
+        }
+    }
+}
